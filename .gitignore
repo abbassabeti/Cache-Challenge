@@ -1,0 +1,58 @@
+# User-specific files
+*.xcuserdatad
+*.xcuserdata
+*.swp
+*.swo
+*.lock
+*.DS_Store
+.profile
+*.orig
+
+# Build generated
+build/
+DerivedData/
+*.ipa
+*.app.dSYM.zip
+*.app.dSYM
+
+# Various settings and support files
+*.mode1v3
+*.mode2v3
+*.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.pbxuser
+xcdebugger/
+*.moved-aside
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+Carthage/Build/
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Archives
+*.xcarchive
+
+# Xcode scheme management
+xcshareddata/
+
+# Playground related
+timeline.xctimeline
+playground.xcworkspace
+
+# AppCode
+.idea/
